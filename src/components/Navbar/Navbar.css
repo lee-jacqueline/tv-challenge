@@ -1,0 +1,34 @@
+.navigation {
+    height: 40px;
+    padding: 1em;
+    display: flex;
+    align-items: center;
+}
+
+.logo {
+    width: auto;
+    height: inherit;
+    margin-right: 3vw;
+}
+
+.menu-items {
+    display: flex;
+}
+
+.menu-items button {
+    background: none;
+    border: 0;
+    color: #888888;
+}
+
+/* Didn't implement state for active menu item, but will put this for now*/
+.menu-items button:hover, button:first-child {
+    color: #ffffff;
+}
+
+.menu-items button h4 {
+    padding: 1em;
+    font-weight: bold;
+    font-size: 18px;
+    margin: 0;
+}
