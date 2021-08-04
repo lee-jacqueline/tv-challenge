@@ -1,7 +1,8 @@
 .App {
   background-color: #101010;
   color: #ffffff;
-  height: 100vh;
+  height: calc(100vh - 4em);
   padding: 2em;
+  overflow: hidden;
 }
 

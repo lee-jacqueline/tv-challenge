@@ -1,0 +1,18 @@
+.carousel-card {
+    width: 20vw;
+    padding: 5px;
+    margin: 5px;
+}
+
+.carousel-card-blue {
+    width: 20vw;
+    padding: 3px;
+    margin: 3px;
+    border: solid 4px #4398f5;
+    border-radius: 4px;
+}
+
+.image {
+    width: inherit;
+}
+

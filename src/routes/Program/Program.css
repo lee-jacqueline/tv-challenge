@@ -1,0 +1,30 @@
+.program {
+    margin: 1em;
+    display: flex;
+}
+
+.program-poster {
+    width: 20%;
+    height: fit-content;
+    margin: 2em;
+}
+
+.details {
+    margin: 2em;
+}
+
+h1 {
+    font-weight: 500;
+    font-size: 48px;
+    line-height: 0;
+}
+
+h2 {
+    font-weight: 500;
+    padding-bottom: 1em;
+}
+
+p {
+    font-size: 1.5em;
+    line-height: 1.5em;
+}

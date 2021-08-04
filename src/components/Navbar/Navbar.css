@@ -1,5 +1,5 @@
 .navigation {
-    height: 40px;
+    height: 50px;
     padding: 1em;
     display: flex;
     align-items: center;
@@ -8,7 +8,7 @@
 .logo {
     width: auto;
     height: inherit;
-    margin-right: 3vw;
+    margin-right: 5vw;
 }
 
 .menu-items {
@@ -21,14 +21,30 @@
     color: #888888;
 }
 
-/* Didn't implement state for active menu item, but will put this for now*/
-.menu-items button:hover, button:first-child {
+/* Didn't implement state for active menu item, but will put this for now */
+.menu-items button:first-child {
     color: #ffffff;
 }
 
 .menu-items button h4 {
     padding: 1em;
     font-weight: bold;
-    font-size: 18px;
+    font-size: 24px;
     margin: 0;
+}
+
+/* 720px screen support */
+@media screen and (max-width: 720px) {
+    .navigation {
+        height: 30px;
+    }
+
+    .logo {
+        margin-right: 3vw;
+    }
+
+    .menu-items button h4 {
+        padding: 0.5em;
+        font-size: 18px;
+    }
 }
