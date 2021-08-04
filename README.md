@@ -24,6 +24,12 @@ To start the project, run
 - TypeScript
 - Jest & react-testing-library
 
+## How to use the app
+
+1. Use your left and right keys on your keyboard to scroll through the carousel.
+2. Hit enter on your keyboard to see more details of a program.
+3. Hit backspace on your keyboard to return to the home page.
+
 ## Approach
 
 ### 1. Folder Structure
