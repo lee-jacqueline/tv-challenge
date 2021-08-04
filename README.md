@@ -30,6 +30,7 @@ To start the project, run
 
 I have split the code structure in the following ways. I wanted to separate the stateless components from the routes so it can be better reused, thus have set up the structure as follows.
 
+```
 .
 ├── public
 ├── src
@@ -50,6 +51,7 @@ I have split the code structure in the following ways. I wanted to separate the 
 │ ├── index.tsx
 │ └── setupTests.ts
 └── .gitignore
+```
 
 Each route and component has the following files:
 
