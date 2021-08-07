@@ -9,7 +9,7 @@ To start the project, run
 `yarn install` to install dependencies.\
 `yarn start` to view in development mode.\
 `yarn test` to launch the test runner.\
-`yarn build` to build the package to a `dist` folder.\
+`yarn build` to build the package.\
 
 ## Guidelines followed
 
